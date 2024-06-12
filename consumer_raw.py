@@ -1,6 +1,6 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructType, StructField, StringType, DoubleType
-from pyspark.sql.functions import from_json, col, from_unixtime, regexp_extract, window, count
+from pyspark.sql.functions import from_json, col, from_unixtime
 
 
 def activate_streaming():

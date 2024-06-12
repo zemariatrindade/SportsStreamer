@@ -1,6 +1,6 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructType, StructField, StringType, DoubleType, TimestampType
-from pyspark.sql.functions import from_json, window, col, regexp_extract, count
+from pyspark.sql.functions import window, col, regexp_extract, count
 
 
 def read_and_process():

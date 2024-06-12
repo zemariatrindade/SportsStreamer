@@ -2,8 +2,8 @@ from pyspark.sql import SparkSession
 import nltk
 from nltk.corpus import stopwords
 from pyspark.sql.functions import col, window, lower, regexp_replace, udf, explode, array, struct, lit, row_number, collect_list
-from pyspark.sql.types import StringType, StructType, StructField, DoubleType, TimestampType, ArrayType, DoubleType
-from pyspark.ml.feature import Tokenizer, StopWordsRemover, CountVectorizer, IDF
+from pyspark.sql.types import StringType, StructType, StructField, TimestampType, ArrayType, DoubleType
+from pyspark.ml.feature import Tokenizer, CountVectorizer, IDF
 from pyspark.ml import Pipeline
 from pyspark.sql import Window as W
 
