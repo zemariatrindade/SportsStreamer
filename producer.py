@@ -6,7 +6,7 @@ import praw
 import time
 
 
-env_file = 'creds.sh'
+env_file = '../creds.sh'
 dotenv.load_dotenv(env_file, override=True)
 
 CLIENT_ID = os.environ['CLIENT_ID']

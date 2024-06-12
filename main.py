@@ -7,7 +7,7 @@ import os
 import glob
 
 # Configure logging
-logging.basicConfig(filename='script_runner.log', level=logging.INFO,
+logging.basicConfig(filename='../script_runner.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 def run_script(script_name):
