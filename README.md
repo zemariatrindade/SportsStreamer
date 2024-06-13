@@ -7,7 +7,7 @@
 ![bash](https://img.shields.io/badge/bash-4EAA25?style=for-the-badge&logo=gnu%20bash&logoColor=white)
 ![markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 
-This project streams sports content from various subreddits using the Reddit API. It connects to Euro2024, NBA, Tennis, and Copa America subreddits to gather comments and analyze them locally.
+This project streams sports content from various subreddits using the Reddit API. It connects to Euro2024, NBA, Tennis, and Copa America subreddits to gather comments and analyze them locally!
 
 ## Overview
 
