@@ -31,7 +31,7 @@ Before running the application, ensure you have Docker and Docker Compose instal
 Clone the repository to your local machine.
 
 ```bash
-git clone https://github.com/your-repo/sports-streamer.git
+git clone https://github.com/zemariatrindade/SportsStreamer.git
 cd sports-streamer
 ```
 
@@ -51,7 +51,6 @@ PASSWORD=your_reddit_password
 Build and start the Docker container using Docker Compose.
 
 ```bash
-Copy code
 docker-compose up --build
 ```
 
