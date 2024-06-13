@@ -66,9 +66,15 @@ if __name__ == "__main__":
         logging.info("Starting reader_tfidf.py")
         tfidf_process = run_script('reader_tfidf.py')
 
-        # Since processes are intended to run indefinitely, no need to wait for their completion
+        # Keep the main process running to prevent Docker container from exiting
+        try:
+            while True:
+                time.sleep(60)
+        except (KeyboardInterrupt, SystemExit):
+            signal_handler(signal.SIGINT, None)
     else:
         logging.error("Failed to start either producer.py or consumer_raw.py. Readers will not be started.")
+
 
 
 

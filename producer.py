@@ -1,16 +1,16 @@
 import os
-import dotenv
 import socket
 import json
 import praw
 import time
+from dotenv import load_dotenv
 
 
-env_file = 'creds.sh'
-dotenv.load_dotenv(env_file, override=True)
+# Load environment variables from .env file
+load_dotenv()
 
-CLIENT_ID = os.environ['CLIENT_ID']
-SECRET_TOKEN = os.environ['SECRET_TOKEN']
+CLIENT_ID = os.getenv('CLIENT_ID')
+SECRET_TOKEN = os.getenv('SECRET_TOKEN')
 USER_AGENT = 'MyBot/0.0.1'
 
 host = "127.0.0.1"

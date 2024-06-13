@@ -1,2 +1,5 @@
 creds.sh
 /venv
+.env
+data/*
+!data/.gitkeep
